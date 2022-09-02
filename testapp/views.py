@@ -10,5 +10,6 @@ def o_nama(request):
     return HttpResponse("OVO JE PRICA O NAMA")
 
 def pocetna2(request):
-    return render(request, 'pocetna2.html', {})
+    ime="Dean"
+    return render(request, 'pocetna2.html', {'ime':ime,})
 
